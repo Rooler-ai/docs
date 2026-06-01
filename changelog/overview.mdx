@@ -1,0 +1,100 @@
+---
+title: "Product updates"
+description: "New features, improvements, and what's shipping."
+mode: "wide"
+---
+
+<Update label="June 1, 2026" tags={["Accounting", "Integrations", "Security", "Mobile"]}>
+
+## Accounting
+
+Full accounting is built into the main app and ready for QA.
+
+- **AR** (Accounts Receivable)
+- **AP** (Accounts Payable)
+- **Bills**
+- **Driver Balances**
+- **Vendors** — includes truck owners, shops, and more
+- **Transaction matching**
+
+We matched **QuickManage** on Accounting, and we're just below **Datatruck** on accounting features.
+
+<Note>Status: ready for QA (Quality Assurance testing).</Note>
+
+<Columns cols={2}>
+  <Frame caption="Accounts Receivable — completed loads with rates, customers, and status">
+    <img src="/images/changelog/AR.png" alt="Accounts Receivable table of completed loads" />
+  </Frame>
+  <Frame caption="Accounts Payable — settlements by pay period with gross, deductions, and net">
+    <img src="/images/changelog/AP.png" alt="Accounts Payable settlements list" />
+  </Frame>
+  <Frame caption="Bills — vendor bill batches with paid, draft, and voided status">
+    <img src="/images/changelog/BILLS.png" alt="Bills batches by vendor" />
+  </Frame>
+  <Frame caption="Driver Balances — receivable, payable, and net position per driver">
+    <img src="/images/changelog/driver-balances.png" alt="Driver balances totals across all drivers" />
+  </Frame>
+</Columns>
+
+<Frame caption="Transactions — income and expense entries matched to bills and categories">
+  <img src="/images/changelog/Transactions.png" alt="Transactions list with income and expense entries" />
+</Frame>
+
+## Integrations
+
+Integrations are implemented and live — QuickBooks plus personal integrations with Monday and Google Sheets.
+
+<Columns cols={3}>
+  <Card title="QuickBooks" img="/images/changelog/quickbooks.png">
+    Sync your accounting with QuickBooks.
+  </Card>
+  <Card title="Monday" img="/images/changelog/monday.png">
+    Personal integration with Monday.
+  </Card>
+  <Card title="Google Sheets" img="/images/changelog/google-sheets.svg">
+    Personal integration with Google Sheets.
+  </Card>
+</Columns>
+
+## Security
+
+Improved security with **WorkOS**.
+
+<Frame>
+  <img src="/images/changelog/workos.jpeg" alt="WorkOS" />
+</Frame>
+
+## Driver mobile app
+
+The mobile app gives drivers everything they need on the road — loads, navigation, and statements.
+
+<Note>This app is for **drivers only**. Owners don't drive — owners see their drivers in the **business app**.</Note>
+
+**Loads** — drivers see every shipment assigned to them, with live status and expected dates.
+
+**Navigation** — turn-by-turn route planning built for trucks, powered by **Here Technologies**, with live tracking on the map.
+
+**Statements & earnings** — every statement is approved and sent right in the app, with driver statement analytics: total earnings, settlements, escrow and advance balances, and a per-statement breakdown of gross, deductions, and trips.
+
+<Columns cols={2}>
+  <Frame caption="Loads — assigned shipments with live status">
+    <img src="/images/changelog/mobile-1.jpg" alt="Driver loads list showing assigned shipments and statuses" />
+  </Frame>
+  <Frame caption="Navigation — truck routing and live tracking (Here Technologies)">
+    <img src="/images/changelog/mobile-2.jpg" alt="Live map route tracking with load details" />
+  </Frame>
+</Columns>
+
+<Columns cols={3}>
+  <Frame caption="Earnings & statement analytics">
+    <img src="/images/changelog/mobile-3.jpg" alt="Earnings summary with settlements, escrow, and advance balances" />
+  </Frame>
+  <Frame caption="Statement detail — approved and paid">
+    <img src="/images/changelog/mobile-4.jpg" alt="Paid statement showing net pay, gross, deductions, and trips" />
+  </Frame>
+  <Frame caption="Statement detail — trips breakdown">
+    <img src="/images/changelog/mobile-5.jpg" alt="Pending statement with per-trip load breakdown" />
+  </Frame>
+</Columns>
+
+</Update>
